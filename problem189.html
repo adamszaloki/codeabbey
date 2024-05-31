@@ -1,0 +1,15 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+	<p>Random value is #####</p>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var rnd = 1872 * (Math.floor(Math.random() * 1000) + 1);
+		$("p").text("Random value is " + rnd);
+	});
+</script>
+</body>
+</html>
